@@ -1,0 +1,5 @@
+# JavaScript example
+var result = 5 + 7; result;
+
+# Python example
+result = 9 * 3

@@ -1,0 +1,5 @@
+{
+    "java.project.referencedLibraries": [
+        "jython-standalone-2.7.2.jar"
+    ]
+}
