@@ -18,6 +18,7 @@ public class GraphTraversal {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         Map<Integer, Node> graph = new HashMap<>();
         Set<Integer> visited = new HashSet<>();
+        // Input nodes
 
         int n = Integer.parseInt(br.readLine().trim());
         for (int i = 0; i < n; i++) {
@@ -26,7 +27,7 @@ public class GraphTraversal {
             String name = parts[1];
             graph.put(id, new Node(id, name));
         }
-
+        // Input edges
         int m = Integer.parseInt(br.readLine().trim());
         for (int i = 0; i < m; i++) {
             String[] parts = br.readLine().trim().split(":");
